@@ -1,4 +1,4 @@
-import 'normalize.css';
+import 'minireset.css';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { I18nextProvider } from 'react-i18next';

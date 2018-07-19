@@ -26,13 +26,7 @@ function dealParams(
   }
 }
 
-export function isLocationParamValid(): boolean {
+export function verifyUrlParams(): void {
   const { mode, servicever, accepted, failed, rejected, productid, culturecode, token, studentid } = urlParams;
-
-  try {
-    dealParams(mode, servicever, accepted!, failed!, rejected!, productid, culturecode, token, studentid);
-    return true;
-  } catch (error) {
-    return false;
-  }
+  dealParams(mode, servicever, accepted!, failed!, rejected!, productid, culturecode, token, studentid);
 }

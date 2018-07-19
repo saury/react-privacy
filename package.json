@@ -9,7 +9,7 @@
     "better-scroll": "^1.12.5",
     "i18next": "^11.3.6",
     "i18next-browser-languagedetector": "^2.2.2",
-    "normalize.css": "^8.0.0",
+    "minireset.css": "^0.0.3",
     "query-string": "5",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
