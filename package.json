@@ -1,0 +1,35 @@
+{
+  "name": "react-privacy-policy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/query-string": "5",
+    "axios": "^0.18.0",
+    "better-scroll": "^1.12.5",
+    "i18next": "^11.3.6",
+    "i18next-browser-languagedetector": "^2.2.2",
+    "normalize.css": "^8.0.0",
+    "query-string": "5",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-i18next": "^7.8.1",
+    "react-scripts-ts": "2.16.0",
+    "styled-components": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/i18next-browser-languagedetector": "^2.0.1",
+    "@types/jest": "^23.3.0",
+    "@types/node": "^10.5.2",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "@types/react-i18next": "^7.8.0",
+    "typescript": "^2.9.2"
+  }
+}
