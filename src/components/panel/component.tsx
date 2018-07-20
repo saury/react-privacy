@@ -13,7 +13,7 @@ interface IProps {
 }
 
 interface IState {
-  content: any;
+  content: { __html: string };
   submitActived: boolean;
   submitHidden: boolean;
 }

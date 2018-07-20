@@ -4,7 +4,7 @@ import { culturecode } from './config/URL_PARAM';
 
 i18n.use(LanguageDetector).init({
   // we init with resources
-  debug: true,
+  debug: process.env.NODE_ENV === 'development',
   fallbackLng: 'en',
   resources: {
     en: {
